@@ -102,7 +102,7 @@ const skills = {
             name: "Tableau",
         },
         {
-            icon: <img src="/skills/matlab.svg" alt="Matlab" className="w-20 h-20 filter invert" />,
+            icon: <Image src="/skills/matlab.svg" alt="Matlab" className="w-20 h-20 filter invert" />,
             name: "Matlab",
         },
     ],
@@ -113,9 +113,8 @@ import {Tabs, TabsContent, TabsList, TabsTrigger } from '@/components/ui/tabs';
 import {Tooltip, TooltipContent, TooltipProvider, TooltipTrigger} from '@/components/ui/tooltip';
 
 import { ScrollArea } from '@/components/ui/scroll-area';
-import { motion
-
- } from 'framer-motion';
+import { motion } from 'framer-motion';
+import Image from 'next/image';
 
 const Resume = () => {
     return (
@@ -179,7 +178,7 @@ const Resume = () => {
                                                         {item.institution === "Duke University" && (
                                                             <div className="relative flex items-center">
                                                                 <div className="bg-white p-2 rounded-md flex justify-center items-center">
-                                                                    <img
+                                                                    <Image
                                                                         src="/resume/duke_logo.png"
                                                                         alt="Duke University Logo"
                                                                         className="w-22 h-12 transition-transform duration-300 transform hover:scale-105 cursor-pointer" // Add scaling effect on hover

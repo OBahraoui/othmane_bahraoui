@@ -18,7 +18,7 @@ const Home = () => {
               <div className="text-center xl:text-left order-2 xl:order-none">
                 <span className="text-xl">Data Scientist</span>
                 <h1 className="h1 mb-6">
-                  Hello I'm <br /> <span className="text-accent">Othmane Bahraoui</span>
+                  Hello I&apos;m <br /> <span className="text-accent">Othmane Bahraoui</span>
                 </h1>
                 {/* btn and socials */}
                 <div className="flex flex-col xl:flex-row items-center gap-8">
